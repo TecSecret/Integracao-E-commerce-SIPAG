@@ -1,0 +1,1 @@
+curl -v -H "Content-Type: text/xml" --cert WST279925._.1.pem --key WST279925._.1.key --pass fryeBu23^< -u WST279925._.1:KaWwNI31=$ --url https://test.ipg-online.com/ipgapi/services -d @request.xml --trace-ascii "trace.log" -o "response.xml" --insecure

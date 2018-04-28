@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <soap-env:Envelope xmlns:soap-env='http://schemas.xmlsoap.org/soap/envelope/'>
+      <soap-env:Header />
+      <soap-env:Body>
+        <ipgapi:IPGApiOrderRequest xmlns:ipgapi='http://ipg-online.com/ipgapi/schemas/ipgapi' xmlns:v1='http://ipg-online.com/ipgapi/schemas/v1'>
+          <v1:Transaction>
+            <v1:CreditCardTxType>
+              <v1:StoreId>2724189910</v1:StoreId>
+              <v1:Type>sale</v1:Type>
+            </v1:CreditCardTxType>
+            <v1:CreditCardData>
+              <v1:CardNumber>554722*********</v1:CardNumber>
+              <v1:ExpMonth>12</v1:ExpMonth>
+              <v1:ExpYear>20</v1:ExpYear>
+              <v1:CardCodeValue>111</v1:CardCodeValue>              
+            </v1:CreditCardData>
+            <v1:cardFunction>credit</v1:cardFunction>
+            <v1:Payment>
+              <v1:ChargeTotal>15.00</v1:ChargeTotal>
+              <v1:Currency>986</v1:Currency>
+            </v1:Payment>
+            <v1:TransactionDetails>              
+              <v1:DynamicMerchantName>My Main Website</v1:DynamicMerchantName>
+            </v1:TransactionDetails>                       
+          </v1:Transaction>
+        </ipgapi:IPGApiOrderRequest>
+      </soap-env:Body>
+</soap-env:Envelope>

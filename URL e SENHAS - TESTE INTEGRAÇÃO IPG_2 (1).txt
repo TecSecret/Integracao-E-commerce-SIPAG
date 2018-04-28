@@ -1,0 +1,20 @@
+URL: https://test.ipg-online.com/ipgapi/services
+
+
+
+Utilizar os dados abaixo para a realização dos testes:
+
+
+Store ID: 2724189910
+
+Número do Estabelecimento: 24189910
+
+Terminal ID: EII00714
+
+User ID: WST279925._.1
+
+Senha Usuário: KaWwNI31=$
+
+Senha Certificado API: fryeBu23^<
+
+Senha do arquivo zip: 5XS3QULR 
